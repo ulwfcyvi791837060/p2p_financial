@@ -83,7 +83,7 @@ public class InitProcessor {
 	 **/
 	private void recover() throws Throwable {
 		// snapshot 恢复
-		// core member snapshot恢复
+		// core member snapshot 恢复
 		CoreSnapshot memberSnapshot = null;
 		try {
 			memberSnapshot = (CoreSnapshot) snapshotJsonUtil.recovery(coreCommandEventHandler.getSnapshotFileBasePath(),

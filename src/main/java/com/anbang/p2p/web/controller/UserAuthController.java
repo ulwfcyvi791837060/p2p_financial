@@ -182,6 +182,15 @@ public class UserAuthController {
 		}
 	}
 
+	/**
+	 * 发送短信
+	 * @Description
+	 * @Date 2019/11/15 17:42 
+	  * @param phone
+	 * @param param
+	 * @return java.lang.String
+	 * @throws
+	 **/
 	private String getCode(String phone, String param) {
 		String host = "http://dingxin.market.alicloudapi.com";
 		String path = "/dx/sendSms";
